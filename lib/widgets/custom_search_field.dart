@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_language_fonts/google_language_fonts.dart';
 
 import '../services/colors.dart';
 class CustomSearchField extends StatelessWidget {
@@ -32,6 +33,7 @@ class CustomSearchField extends StatelessWidget {
           decoration: InputDecoration(
               filled: true,
               hintText: "কাঙ্ক্ষিত পণ্যটি খুঁজুন",
+              hintStyle: BengaliFonts.mina(),
               fillColor: AppColors.appWhiteColor,
               border: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(10.0),
